@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-color: #fffbf8;
+  color: #333;
+}
+
+header {
+  background-color: #6cd7de;
+  padding: 10px 20px;
+  text-align: center;
+  border-bottom: 4px solid #66ffc4;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  background-color: #c2fbcb;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
+    rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
+    rgba(44, 187, 99, 0.15) 0 16px 32px;
+  color: rgb(119, 128, 0);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  text-decoration: none;
+  color: #cc0000;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #990099;
+}
+
+.home-section {
+  padding: 40px 20px;
+  background: #fef0ff;
+  text-align: center;
+}
+
+.home-section h1 {
+  color: #ff3399;
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+footer {
+  background: #ffe5f0;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
